@@ -1,0 +1,1 @@
+export 'package:cinema_pedia_flutter/presentation/screens/movies/home_screen.dart';
