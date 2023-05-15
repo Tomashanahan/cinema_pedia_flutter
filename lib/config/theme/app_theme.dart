@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 List<Color> appThemeColors = [
+  Colors.blueAccent,
   Colors.yellowAccent,
   Colors.amber,
   Colors.amberAccent,
-  Colors.blueAccent,
   Colors.cyanAccent,
   Colors.deepOrangeAccent,
   Colors.greenAccent,
