@@ -31,4 +31,9 @@ class MovieRepositoryImplementation extends MoviesRepository {
   Future<Movie> getMovieDetail({required String id}) {
     return dataSource.getMovieDetail(id: id);
   }
+
+  @override
+  Future<List<Movie>> searchMovie(String query) {
+    return dataSource.searchMovie(query);
+  }
 }
